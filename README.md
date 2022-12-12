@@ -27,16 +27,22 @@ npm run dev
 
 ## Production
 
-Build the application for production:
+`git clone https://github.com/LazMikRom/WEBGPPB.git`
 
-```bash
-npm run build
-```
+(Скачать NVM)
+ubuntu: https://github.com/nvm-sh/nvm#installing-and-updating
+windows: https://github.com/coreybutler/nvm-windows
 
-Locally preview production build:
+Дальше возвращаемся в консоль
+Пишем: 
+`nvm install 18`
+`nvm use 18`
+`npm install --global yarn`
 
-```bash
-npm run preview
-```
+Билдим и Деплоим наше приложение:
+1. `yarn`
+2. `yarn build`
+3. `yarn start`
 
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
+Все, сайт запущен
+
